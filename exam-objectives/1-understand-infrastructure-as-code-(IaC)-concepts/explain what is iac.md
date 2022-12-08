@@ -7,4 +7,4 @@ Terraform é uma ferramenta de infraestrutura como código, que ajuda você a co
 #### Como o Terraform funciona?
 O Terraform cria e gerencia recursos em ambientes de cloud através de APIs, justamente se conectando com os provedores como AWS, Azure, GCP.
 
-![terra]() 
+![terra](https://github.com/Terraform-Tutorials/learn-terraform-associate-exam/blob/main/exam-objectives/images/terra1.png) 
