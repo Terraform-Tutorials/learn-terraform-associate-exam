@@ -31,4 +31,14 @@ Vamos descrever alguns dos principais caos de usos do Terrafor  dentro do ambien
 
 - **Application Infrastructure Deployment, Sacling and Monitoring Tools** - Podemos usar Terraform para eficientes deploys, escalar, e monitorar infraestruturas. Com o uso do Terraform, podemos fazer deploy de uma camada de banco de dados antes de provisionar os servidores web que dependem dessa camada de banco de dados, por exemplo.
 
-- **Self-Service Clusters** - 
+- **Self-Service Clusters** - você pode usar o Terraform para criar um modelo de infraestrutura de auto-atendimento, que permite que as equipes de produto desenvolvam sua prórpia infraestrutura de forma independente. Você pode criar e usar módulos do Terraform, que codificam os padrões para a implantação e gerenciamento de serviços na sua organização, assim permite que as equipes possam implantar com eficiência e em conformidade com as práticas da organização. Existe o Terraform Cloud que pode se integrar com o ServiceNow e gerar novas solicitações de infraestruturas.
+
+- **Policy Compliance Management** - o Terraform pode ajudar a impor políticas sobre os tipos de recursos que as equipes podem provisionar e usar. Você pode usar o Sentinel (que é uma estrutura de política como código) para impor automaticamente as políticas de conformidade e governança antes que o Terraform faça as alterações na infraestrutura. O Sentinel está disponível com o Terraform Cloud.
+
+- **PaaS Aplication Setup **- Fornecedores de PaaS, com o Heroku permite que você crie aplicativos da web e anexe complementos, como bancos de dados ou provedores de email. Você pode usar o Terraform para codificar a configuração necessária para um aplicativo Heroku, ele permite que você faça isso sem uma interface web e de forma rápida e consistente.
+
+- **Software Defined Networking** - o Terraform permite interagir com SDNs, para configurar automaticamente a rede de acordo com as necessidades dos aplicativos em execução nela. Existe formas de conectar o Consul com  oTerraform, assim gerandod e forma automática a configuração de portas apropriadas da rede que está sendo provisionada. A NIA (network infrastructure automation) permite aprovar com segurança as mudanças que seus aplicativos exigem.
+
+- **Kubernetes**  - Kubernetes é a ferramentas de orquetração de containers mais conhecida e usada mundialmente, o Terraform é um linda forma de trabalhar em conjunto com o Kubernetes para deploy de clusters de Kubernetes e gerenciamento de recursos como  (PODs, deployments, services), existem opções como o Kuberenetes Operator for Terraform, para gerenciar recursos de nuvem com o Kubeernetes Custom Resource.
+
+- **Software Demos**  - podemos usar Terraform para criar e provisionar um demo em vários provedores de nuvem. Isso ajuda os usuários finais a testarem de forma rápida os recursos antes mesmo de ter o ambiente em PROD.
