@@ -27,10 +27,8 @@ O workflow do Terraform funciona em 3 modos:
 ### Terraform Use Cases
 Vamos descrever alguns dos principais caos de usos do Terrafor  dentro do ambiente corporativo.
 
-- Multi-Cloud Deployment
-Permite você criar recursos através de vários provedores de nuvem, permitindo tolerância a falhas, recueperação mais rápida de incidentes. A ideia do Terraform é simplificar esse trabalho de provisionamento, uma vez que, cada provedor de nuvem tem a sua complexidade e o Terraform usa HCL para definir os recursos, isso simplifica o gerenciamento e orquetração em larga escala de vários provedores de nuvem através de infraestruturas.
+- **Multi-Cloud Deployment** - Permite você criar recursos através de vários provedores de nuvem, permitindo tolerância a falhas, recueperação mais rápida de incidentes. A ideia do Terraform é simplificar esse trabalho de provisionamento, uma vez que, cada provedor de nuvem tem a sua complexidade e o Terraform usa HCL para definir os recursos, isso simplifica o gerenciamento e orquetração em larga escala de vários provedores de nuvem através de infraestruturas.
 
-- Application Infrastructure Deployment, Sacling and Monitoring Tools
-Podemos usar Terraform para eficientes deploys, escalar, e monitorar infraestruturas. Com o uso do Terraform, podemos fazer deploy de uma camada de banco de dados antes de provisionar os servidores web que dependem dessa camada de banco de dados, por exemplo.
+- **Application Infrastructure Deployment, Sacling and Monitoring Tools** - Podemos usar Terraform para eficientes deploys, escalar, e monitorar infraestruturas. Com o uso do Terraform, podemos fazer deploy de uma camada de banco de dados antes de provisionar os servidores web que dependem dessa camada de banco de dados, por exemplo.
 
-- Self-Service Clusters
+- **Self-Service Clusters** - 
