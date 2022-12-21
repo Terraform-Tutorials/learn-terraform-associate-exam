@@ -1,13 +1,26 @@
 terraform {
   required_providers {
     aws = {
-      version = "~> 2.13.0"
+      source = "hashicorp/aws"
+      version = "~> 3.73.0"
     }
   }
 }
+
+//provider "aws" {
+//  shared_credentials_file = "/home/amaurybsouza/.aws"
+// profile                 = "devopsaws"
+//  region                  = "us-east-1"
 
 provider "aws" {
   shared_credentials_file = "/home/amaurybsouza/.aws"
   profile                 = "devopsaws"
   region                  = "us-east-1"
+ default_tags {
+   tags = {
+     Environment = "Test"
+     Owner       = "TFProviders"
+     Project     = "Test"
+   }
+ }
 }
