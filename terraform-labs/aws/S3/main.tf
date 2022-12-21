@@ -14,7 +14,8 @@ provider "aws" {
   default_tags {
     tags = {
       Environment = "Test"
-      Owner       = "TFProviders"
+      Owner       = "Amaury"
+      maneged-by  = "Terraform"
       Project     = "Test"
     }
   }
