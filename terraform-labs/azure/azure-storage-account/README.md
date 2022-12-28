@@ -1,37 +1,54 @@
-# Foobar
+# Create a Storage Account on Azure with Terraform
+Manages an Azure Storage Account on Azure with Terraform.
 
-Foobar is a Python library for dealing with word pluralization.
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Login into Azure
+First of all,  login into Azure CLoud with CLI (Command Line Interface).
 
 ```bash
-pip install foobar
+$ az login
+A web browser has been opened at https://login.microsoftonline.com/organizations. Please continue the login in the web browser. If no web browser is available or if the web browser fails to open, use device code flow with `az login --use-device-code`.
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "88888888888888888888888888888",
+    "id": "555555555555555555555555555555",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Azure Test",
+    "state": "Enabled",
+    "tenantId": "a88888888888888888888888888888888",
+    "user": {
+      "name": "fulano-beltrano@hotmail.com",
+      "type": "user"
+    }
+  }
+]
 ```
 
-## Usage
+## Terraform Commands
+We need to run some Terraform commands to check and validate the Terraform code.
 
-```python
-import foobar
+- Using the `terraform validate` to check the syntax:
 
-# returns 'words'
-foobar.pluralize('word')
+```bash
+$ terraform validate 
+Success! The configuration is valid.
+```
 
-# returns 'geese'
-foobar.pluralize('goose')
+- Using the `terraform fmt` to format the code:
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```bash
+$ terraform fmt
+locals.tf
+storage_account.tf
+variables.tf
 ```
 
 ## Contributing
-
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
 ## License
-
 [MIT](https://choosealicense.com/licenses/mit/)
