@@ -44,6 +44,55 @@ storage_account.tf
 variables.tf
 ```
 
+- Using the `terraform init` to start the workload:
+
+```bash
+$ terraform init
+
+Initializing the backend...
+
+Initializing provider plugins...
+- Reusing previous version of hashicorp/azurerm from the dependency lock file
+- Using previously-installed hashicorp/azurerm v3.0.0
+
+Terraform has been successfully initialized!
+
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.
+```
+
+- Applying the changes:
+
+```bash
+$ terraform apply 
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+azurerm_resource_group.my_resource_group: Creating...
+azurerm_resource_group.my_resource_group: Creation complete after 4s 
+azurerm_storage_account.my_storage_account: Creating...
+azurerm_storage_account.my_storage_account: Still creating... [10s elapsed]
+azurerm_storage_account.my_storage_account: Still creating... [20s elapsed]
+azurerm_storage_account.my_storage_account: Still creating... [30s elapsed]
+azurerm_storage_account.my_storage_account: Creation complete after 35s
+azurerm_storage_container.my_storage_container: Creating...
+azurerm_storage_container.my_storage_container: Creation complete after 0s
+
+Apply complete! Resources: 3 added, 0 changed, 0 destroyed.
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
