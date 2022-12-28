@@ -1,7 +1,7 @@
 # Create a resource group
 resource "azurerm_resource_group" "my_resource_group" {
   name     = ""
-  location = ""
+  location = var.location
 
   tags = ""
 }
@@ -9,9 +9,9 @@ resource "azurerm_resource_group" "my_resource_group" {
 resource "azurerm_storage_account" "my_storage_account" {
   name                     = ""
   resource_group_name      = ""
-  location                 = ""
-  account_tier             = ""
-  account_replication_type = ""
+  location                 = var.location
+  account_tier             = var.account_tier
+  account_replication_type = var.account_replication_type
 
   tags = {
     environment = ""
