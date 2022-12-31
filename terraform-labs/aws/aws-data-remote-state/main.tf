@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "amaurybsouza-remote-state"
-    key    = "aws-vpc/terraform.tfstate"
-    region = "us-east-1"
+    bucket                  = "amaurybsouza-remote-state"
+    key                     = "aws-vm/terraform.tfstate"
+    region                  = "us-east-1"
     shared_credentials_file = "/home/amaurybsouza/.aws"
     profile                 = "devopsaws"
   }
@@ -26,5 +26,16 @@ provider "aws" {
       maneged-by  = "Terraform"
       Project     = "Test"
     }
+  }
+}
+
+data "terraform_remote_state" "my_data_vpc" {
+  backend = "s3"
+  config = {
+    bucket = "amaurybsouza-remote-state"
+    key    = "aws-vpc/terraform.tfstate"
+    region = "us-east-1"
+    shared_credentials_file = "/home/amaurybsouza/.aws"
+    profile                 = "devopsaws"
   }
 }
