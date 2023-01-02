@@ -9,6 +9,7 @@
 *.out*
 *.hcl*
 *.terraform*
+*.terraform.lock.hcl*
 
 # SSH configurations files
 *id_rsa*
