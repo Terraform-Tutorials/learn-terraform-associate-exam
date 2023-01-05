@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   shared_credentials_file = "/home/amaurybsouza/.aws"
-  profile                 = "devopsaws"
+  profile                 = "platformlabs"
   region                  = "us-east-1"
   default_tags {
     tags = {
