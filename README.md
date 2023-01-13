@@ -22,7 +22,9 @@ Terraform 0.15 and higher.
 ## Study Guide - Terraform Associate Certification (002)
 This [guide](https://developer.hashicorp.com/terraform/tutorials/certification/associate-study?ajs_aid=34136526-1c72-41a2-a3d2-a0a000192ace&product_intent=terraform) lists resources you should study if you are preparing for the Terraform Associate Certification (002) exam from scratch. We've listed the resources in order of difficulty so that you should be able to progress through the list in order. For resources related to a particular test objective, refer to the Exam Review Guide instead.
 
-
+## Sample Questions - Terraform Associate Certification
+HashiCorp Associate Certification exams consist of multiple choice, multiple answer, true/false, and text match question types. Check [here](https://developer.hashicorp.com/terraform/tutorials/certification/associate-questions?ajs_aid=34136526-1c72-41a2-a3d2-a0a000192ace&product_intent=terraform) some example questions to introduce you to the question format you will encounter on the exam.
 
 ## Exam Objectives
+The complete objectives about the exame is [here](https://www.hashicorp.com/certification/terraform-associate) for you work and study.
 
