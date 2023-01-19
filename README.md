@@ -28,6 +28,11 @@ HashiCorp Associate Certification exams consist of multiple choice, multiple ans
 ## Exam Objectives
 The complete objectives about the exame is [here](https://www.hashicorp.com/certification/terraform-associate) for you work and study.
 
+## HashiCorp Terraform - Practice Tests
+Make sure you have checked the follow Terraform Practices Test:
+
+- https://kyndryl.udemy.com/course/terraform-associate-practice-exam/learn/quiz/5022888#overview
+
 #### Note
 I am working and studying following the official contents from Hashicorp site, for more details please check the Terraform official site to guide you.
 
