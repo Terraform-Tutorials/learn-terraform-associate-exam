@@ -1,3 +1,4 @@
+//exemplo de data source que esta sendo usado
 data "aws_ami" "ubuntu" {
   most_recent = true
 
