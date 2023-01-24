@@ -1,6 +1,7 @@
 ## Terraform Glossary
 A ideia desse glossário é listar os termos, recursos e palavras-chaves do terraform, tudo dentro do contexto de infraestrutura como código.
 
+## Terraform Concepts
 - [x] ***terraform*** :. ferramenta de IaC com o objetivo de criar, alterar e versionar uma infraestrutura de forma segura e eficiente.
 - [x] ***IaC*** :. Infrastrcuture as Code, abordagem para gerenciamento de infraestrutura através de arquivos de configuração ao invés de métodos tradicionais.
 - [x] ***HCL*** :. Hashicorp Configuration Language, linguagem usada para escrever os arquivos de configuracao do terraform.
@@ -11,7 +12,10 @@ A ideia desse glossário é listar os termos, recursos e palavras-chaves do terr
 - [x] ***resources*** :. ssao recursos que estas alocados dentros das plataformas de cloud, como instancias, bancos de dados, redes.
 - [x] ***terraform CLI*** :. sao os comandos usados pelo terraform para gerenciamento da infraestrutura e organizacao dos recursos.
 - [x] ***provisioners*** :. recurso que possibilita modelar os comandos e acoes locais ou em instancias remotas atraves do terraform.
+
+## Terraform Commands (CLI)
 - [x] ***terraform init*** :. comando de inicializao do terraform, onde ele baixa plugins dos provedores e plataformas de nuvem.
 - [x] ***terraform plan*** :. comando usado para executar o planejamento do estado desejado da infraestrutura.
 - [x] ***terraform validate*** :. comando usado para executar validacoes do
+- [x] ***terraform fmt*** :. usado para formatar o codigo da sua configuracao.
 
