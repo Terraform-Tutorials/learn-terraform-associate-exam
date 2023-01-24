@@ -1,0 +1,8 @@
+---
+hosts: teste
+become: true
+gather_facts: false
+tasks:
+  - name: teste
+    yum:
+      
