@@ -23,4 +23,9 @@ A ideia desse glossário é listar os termos, recursos e palavras-chaves do terr
 - [x] ***$terraform taint*** :. marca um determinado recurso como nao funcional, danificado.
 - [x] ***$terraform state*** :. gereciamento profundo do arquivo de estado (terraform.tfstate).
 - [x] ***$terraform version*** :. usado para mostrar a versao instalada do terraform.
+- [x] ***$terraform output*** :. faz a leitura n saida padrao direto do arquivo de estado.
+- [x] ***$terraform get*** :. instala oi atualiza modulos do terraform remotos.
+- [x] ***$terraform console*** :. console interativo para testes com valores do terraform.
+- [x] ***$terraform graph*** :. gera um grafico das etapas da operacao.
+- [x] ***$terraform refresh*** :. atualiza o arquivo de estado para se parecer com os recursos remotos.
 
