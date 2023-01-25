@@ -14,3 +14,9 @@ para obter esse entendimento, retirei da doc do terraform:
 depois que ekle dis
 
 
+## Create Resource Dependencies
+a ideia aqui e falar mais sobre o argumento `depends_on` que e muito usado para tratamento de dependencias em diferentes partes dentro do terraform.
+
+- use o argumento `depends_on` para lidar com recursos ocultos ou dependencias de modulo que o terraform nao pode inferir.
+- voce so precisa especificar explicitamente uma dependencia quando um recurso ou modulo depende do comportamento de outro recurso.
+
