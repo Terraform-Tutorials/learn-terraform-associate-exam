@@ -1,4 +1,4 @@
-## Terraform Glossary
+# Terraform Glossary
 A ideia desse glossário é listar os termos, recursos e palavras-chaves do terraform, tudo dentro do contexto de infraestrutura como código.
 
 ## Terraform Concepts
@@ -14,13 +14,13 @@ A ideia desse glossário é listar os termos, recursos e palavras-chaves do terr
 - [x] ***provisioners*** :. recurso que possibilita modelar os comandos e acoes locais ou em instancias remotas atraves do terraform.
 
 ## Terraform Commands (CLI)
-- [x] ***terraform init*** :. comando de inicializao do terraform, onde ele baixa plugins dos provedores e plataformas de nuvem.
-- [x] ***terraform plan*** :. comando usado para executar o planejamento do estado desejado da infraestrutura.
-- [x] ***terraform validate*** :. comando usado para executar validacoes do
-- [x] ***terraform fmt*** :. usado para formatar o codigo da sua configuracao.
-- [x] ***terraform apply*** :. comando para aplicar de fato as acoes mencionadas nos arquivos de configuracao do terraform.
-- [x] ***terraform destroy*** :. comando usado para destruicao da infraestrutura remota.
-- [x] ***terraform taint*** :. marca um determinado recurso como nao funcional, danificado.
-- [x] ***terraform state*** :. gereciamento profundo do arquivo de estado (terraform.tfstate).
-- [x] ***terraform version*** :. usado para mostrar a versao instalada do terraform.
+- [x] ***$terraform init*** :. comando de inicializao do terraform, onde ele baixa plugins dos provedores e plataformas de nuvem.
+- [x] ***$terraform plan*** :. comando usado para executar o planejamento do estado desejado da infraestrutura.
+- [x] ***$terraform validate*** :. comando usado para executar validacoes do
+- [x] ***$terraform fmt*** :. usado para formatar o codigo da sua configuracao.
+- [x] ***$terraform apply*** :. comando para aplicar de fato as acoes mencionadas nos arquivos de configuracao do terraform.
+- [x] ***$terraform destroy*** :. comando usado para destruicao da infraestrutura remota.
+- [x] ***$terraform taint*** :. marca um determinado recurso como nao funcional, danificado.
+- [x] ***$terraform state*** :. gereciamento profundo do arquivo de estado (terraform.tfstate).
+- [x] ***$terraform version*** :. usado para mostrar a versao instalada do terraform.
 
