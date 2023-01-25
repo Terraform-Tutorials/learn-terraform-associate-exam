@@ -28,7 +28,7 @@ A ideia desse glossário é listar os termos, recursos e palavras-chaves do terr
 - [x] ***$terraform get*** :. instala oi atualiza modulos do terraform remotos.
 - [x] ***$terraform console*** :. console interativo para testes com valores do terraform.
 - [x] ***$terraform graph*** :. gera um grafico das etapas da operacao.
-- [x] ***$terraform refresh*** :. atualiza o arquivo de estado para se parecer com os recursos remotos.
+- [x] ***$terraform refresh*** :. faz a leitura das configuracoes atuais dos objetos remotos e atualiza o state.
 - [x] ***$terraform workspace*** :. gerenciamento de workspace no terraform.
 - [x] ***$terraform providers*** :. mostra os providers que sao requeridos para a configuracao.
 - [x] ***$terraform force-unlock*** :. forma manual de dar um `unlock` no arquivo de estado.
@@ -37,5 +37,5 @@ A ideia desse glossário é listar os termos, recursos e palavras-chaves do terr
 - [x] ***`-lock`*** :. desabilita o recurso de lock do state (arquivo de estado).
 - [x] ***remote state*** :. manter seu arquivo de estado remoto.
 - [x] ***S3 backend*** :. suporta encriptar os dados dentro do state e mantem mais seguro.
-- [ ] 
+- [x] ***terraform.tfstate*** :. arquivo de estado usado para armazenar as configuiracoes dos objetos remotos.
 
