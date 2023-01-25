@@ -11,8 +11,6 @@ terraform {
 provider "aws" {
   //shared_credentials_file = "/home/amaury/.aws"
   //profile                 = "devopsaws"
-  access_key = "AKIA2ITGRIZ55K7HTAHB"
-  secret_key = "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"
   region     = "us-east-1"
   default_tags {
     tags = {
