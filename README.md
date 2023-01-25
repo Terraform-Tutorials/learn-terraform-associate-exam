@@ -33,6 +33,6 @@ Make sure you have checked the follow Terraform Practices Test:
 
 - https://kyndryl.udemy.com/course/terraform-associate-practice-exam/learn/quiz/5022888#overview
 
-#### Note
-I am working and studying following the official contents from Hashicorp site, for more details please check the Terraform official site to guide you.
+## Note
+I am working and studying following the official contents from [Hashicorp Terraform site](https://www.terraform.io/), for more details please check the Terraform official site to guide you.
 
