@@ -31,4 +31,11 @@ A ideia desse glossário é listar os termos, recursos e palavras-chaves do terr
 - [x] ***$terraform refresh*** :. atualiza o arquivo de estado para se parecer com os recursos remotos.
 - [x] ***$terraform workspace*** :. gerenciamento de workspace no terraform.
 - [x] ***$terraform providers*** :. mostra os providers que sao requeridos para a configuracao.
+- [x] ***$terraform force-unlock*** :. forma manual de dar um `unlock` no arquivo de estado.
+
+## Terraform State
+- [x] ***`-lock`*** :. desabilita o recurso de lock do state (arquivo de estado).
+- [x] ***remote state*** :. manter seu arquivo de estado remoto.
+- [x] ***S3 backend*** :. suporta encriptar os dados dentro do state e mantem mais seguro.
+- [ ] 
 
