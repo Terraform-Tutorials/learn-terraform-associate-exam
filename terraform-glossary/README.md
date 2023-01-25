@@ -38,4 +38,8 @@ A ideia desse glossário é listar os termos, recursos e palavras-chaves do terr
 - [x] ***remote state*** :. manter seu arquivo de estado remoto.
 - [x] ***S3 backend*** :. suporta encriptar os dados dentro do state e mantem mais seguro.
 - [x] ***terraform.tfstate*** :. arquivo de estado usado para armazenar as configuiracoes dos objetos remotos.
+- [x] ***.terraform*** :. diretorio  usado para
+
+## Terraform Modules
+- [x] ***modules*** :. sasasas
 
