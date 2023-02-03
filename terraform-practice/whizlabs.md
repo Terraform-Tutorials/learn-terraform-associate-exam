@@ -23,3 +23,11 @@ B. Null_resource
 C. Salt-masterless
 D. Remote-exec
 ```
+```
+4- Which language does terraform support from the below list?
+
+A. XML
+B. Javascript
+C. Hashicorp Language & JSON
+D. Plaintext
+```
