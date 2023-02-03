@@ -5,7 +5,6 @@ terraform.tfstate
 *terraform-*
 terraform-provider-*
 terraform-provider-aws_v2.13.0_x4
-*provider.tf*
 *aws-key*
 *aws-key.pub*
-*my_environment*
+*main.tf*
