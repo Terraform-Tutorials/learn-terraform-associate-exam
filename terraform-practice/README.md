@@ -1,17 +1,5 @@
 # Terraform Practices Exam
-```
-1- One of your colleagues is new to Terraform and wants to add a new workspace named new-hire. What command he should execute from the following?
 
-A. terraform workspace –new –new-hire
-B. terraform workspace new new-hire
-C. terraform workspace init new-hire
-D. terraform workspace new-hire
-```
-```
-2- John is a newbie to Terraform and wants to enable detailed logging to find all the details. Which environment variable does he need to set?
+For this repository, you can check some Terraform questions to practice and be prepared for the exam. The Terraform Associate certification is for Cloud Engineers. You should have basic terminal skills and an understanding of on-premises and cloud architecture.
 
-A. TF_help
-B. TF_LOG
-C. TF_Debug
-D. TF_var_log
-```
+OBS: Please, if you prefer check manually the website, click [here](https://www.whizlabs.com/blog/terraform-certification-exam-questions/)
