@@ -72,3 +72,51 @@ B. terraform console
 C. terrafrom plan
 D. terrafrom consul
 ```
+```
+11- Which of the following below helps users to deploy policy as a code?
+
+A. Resources
+B. Functions
+C. Sentinel
+D. Workspaces
+```
+```
+12- You have been asked to stop using static values and make code more dynamic. How can you achieve it? Select the correct option from below.
+
+A. Local values
+B. Input variables
+C. Depends_on
+D. Functions
+```
+```
+13- Which of the following flags can be used with terraform apply command?
+
+A. Auto-approve
+B. Init
+C. Get
+D. Console
+```
+```
+14- What is the default number of concurrent operations supported by terraform apply command?
+
+A. 100
+B. 10
+C. 5
+D. 1
+```
+```
+15- You are trying to login into Terraform Enterprise. Which of the following command is used to save the API token?
+
+A. terraform get
+B. terraform API-get
+C. terraform login
+D. terraform cloud – get api
+```
+```
+16- What are the two supported backend types in Terraform?
+
+A. Remote-backend
+B. Enhanced
+C. Local- backend
+D. Standard
+```
