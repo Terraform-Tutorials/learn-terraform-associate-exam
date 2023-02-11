@@ -143,4 +143,12 @@ module "vpc" {
 }
 ```
 
+### Publishing Modules
+qualquer pessoa pode publicar e compartilhar modulos no terraform registry.
+
+- `Published modules support versioning, automatically generate documentation, allow browsing version histories, show examples and READMEs, and more. We recommend publishing reusable modules to a registry.` segundo a doc do terraform.
+
+- 
+
+
 
