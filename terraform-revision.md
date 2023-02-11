@@ -34,6 +34,8 @@ resource "aws_vpc" "default" {
 - `lifecycle`
 
 ## Terraform State File
+esse topico de extrema relevancia dentro do terraform, precisamos pontuar algumas coisas:
+
 
 
 
