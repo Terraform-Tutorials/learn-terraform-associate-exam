@@ -66,7 +66,7 @@ terraform {
 
 ## Implicit & Explicit Dependency
 
-## Implicit Dependency
+### Implicit Dependency
 ```yml
 provider "aws" {
   region = var.aws_region
@@ -88,7 +88,7 @@ resource "aws_eip" "ip" {
 }
 ```
 
-OBS: nota-se que a linha `instance = aws_instance.example_a.id` do ultimo recurso esta mostrando um `implicit dependency` no terraform.
+**OBS:** nota-se que a linha `instance = aws_instance.example_a.id` do ultimo recurso esta mostrando um `implicit dependency` no terraform.
 
 ### Explicit Dependency
 ```yml
@@ -109,7 +109,7 @@ module "example_sqs_queue" {
 }
 ```
 
-OBS: aqui podemos ver que o argumento `depends_on` esta explicito mostrando que ele depende do recurso de bucket seja criado.
+**OBS:** aqui podemos ver que o argumento `depends_on` esta explicito mostrando que ele depende do recurso de bucket seja criado.
 
 ## String Functions
 - `chmp`
@@ -120,4 +120,27 @@ OBS: aqui podemos ver que o argumento `depends_on` esta explicito mostrando que 
 - `join`
 - `lower`
 - `regex`
+
+## Terraform Modules
+para que possamos entender essa parte mais a fundo, precisamos de alguns exemplos locais de modulos e de conceitos.
+
+```yml
+module "consul" {
+  source = "hashicorp/consul/aws"
+  version = "0.1.0"
+}
+```
+
+### Private Registry Module Sources
+sobre private registry modules, temos que seguir com o seguinte modelo:
+
+`<HOSTNAME>/<NAMESPACE>/<NAME>/<PROVIDER>`
+
+```yml
+module "vpc" {
+  source = "app.terraform.io/example_corp/vpc/aws"
+  version = "0.9.3"
+}
+```
+
 
