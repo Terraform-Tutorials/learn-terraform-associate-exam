@@ -35,6 +35,12 @@ resource "aws_vpc" "default" {
 
 ## Terraform State File
 
+
+
+
+
+
+
 ## Remote Backend
 Abaixo podemos conferir um exemplo de `remote backend` apontando para o S3 da AWS.
 
@@ -121,7 +127,7 @@ module "example_sqs_queue" {
 - `lower`
 - `regex`
 
-## Terraform Modules
+# Terraform Modules
 para que possamos entender essa parte mais a fundo, precisamos de alguns exemplos locais de modulos e de conceitos.
 
 ```yml
@@ -148,7 +154,41 @@ qualquer pessoa pode publicar e compartilhar modulos no terraform registry.
 
 - `Published modules support versioning, automatically generate documentation, allow browsing version histories, show examples and READMEs, and more. We recommend publishing reusable modules to a registry.` segundo a doc do terraform.
 
-- 
+#### Requirements
+
+- precisa estar hospedado no GitHub (public repository)
+- precisa estar nomeado: `terraform-<provider>-<name>`
+- precisa ter descricao do repositorio
+- precisa seguir o `standart module structure`
+- x.y.z for releases.
+
+## Calling a Child Module
+veja abaixo um exemplo basico onde um modulo esta chamando modulos filhos.
+
+```yml
+module "servers" {
+  source = "./app-cluster"
+
+  servers = 5
+}
+```
+
+## Accessing Module Output Values
+podemos usar o comando `output` para fazer referencia ao modulo que esta chamando.
+
+`instances = module.servers.instance_ids`
+
+```yml
+resource "aws_elb" "example" {
+  # ...
+
+  instances = module.servers.instance_ids
+}
+```
+
+
+
+
 
 
 
