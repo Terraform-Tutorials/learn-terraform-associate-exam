@@ -36,12 +36,20 @@ resource "aws_vpc" "default" {
 ## Terraform State File
 esse topico de extrema relevancia dentro do terraform, precisamos pontuar algumas coisas:
 
+### Backend Configuration
+define onde que o terraform armazena os dados do state file.
 
+```yml
+terraform {
+  backend "remote" {
+    organization = "example_corp"
 
-
-
-
-
+    workspaces {
+      name = "my-app-prod"
+    }
+  }
+}
+```
 
 ## Remote Backend
 Abaixo podemos conferir um exemplo de `remote backend` apontando para o S3 da AWS.
